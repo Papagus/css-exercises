@@ -78,6 +78,7 @@ button.cancel {
   margin-bottom: 0;
   justify-content: flex-start;
   font-size: larger;
+  align-items: center;
   
   
 }
