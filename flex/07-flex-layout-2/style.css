@@ -25,7 +25,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: flex-end;
 }
 
 .sidebar {
@@ -33,6 +32,7 @@ body {
   background: royalblue;
   flex-shrink: 0;
   padding: 16px;
+  
   
   
 }
@@ -43,8 +43,7 @@ body {
   border-radius: 4px;
   padding: 16px;
   margin: 16px;
-  gap: 20px;
-  
+  width: 300px;
   
 }
 
@@ -58,13 +57,20 @@ a {
   color: #eee;
   text-decoration: none;
   font-size: 24px;
-  
+}
 
+li {
+  margin-bottom: 16px;
 }
 
 ul {
   list-style-type: none;
-  margin-bottom: 5px;
-  
-  
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
 }
